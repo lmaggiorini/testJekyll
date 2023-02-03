@@ -30,7 +30,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: just-the-docs
+
 plugins:
   - jekyll-feed
 
@@ -53,3 +54,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+color_scheme: foo
+logo: "/assets/logo.png"
+
+footer_content: ""
+
+nav_footer_custom: "Aenduo © (2014 - 2023) per Vivisol"
