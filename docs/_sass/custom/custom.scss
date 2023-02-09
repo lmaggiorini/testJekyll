@@ -1,21 +1,44 @@
 // custom SCSS (or CSS) goes here
 .site-header {
-    background-color: #fff;
-    height: 80px;
-    min-height: 80px;
+  background-color: #fff;
+  height: 80px;
+  min-height: 80px;
+}
+
+.main-header {
+  height: 80px;
 }
 
 @media (min-width: 50rem) {
-    .site-header {
-        height: 80px;
-        max-height: 80px;
-        border-bottom: 1px solid #eeebee;
-    }
+  .site-header {
+    height: 80px;
+    max-height: 80px;
+    border-bottom: 1px solid #eeebee;
+  }
+}
+
+.site-footer {
+  font-size: 10px !important;
 }
 
 .site-title {
-    &:hover {
-        background-image: none;
-        background-color: #fff;
+  &:hover {
+    background-image: none;
+    background-color: #fff;
+  }
+}
+
+.nav-list {
+  .nav-list-item {
+    font-size: 16px !important;
+
+    & > .nav-list {
+      .nav-list-item {
+        .nav-list-link {
+          font-size: 14px;
+          color: #2c84fa;
+        }
+      }
     }
+  }
 }
