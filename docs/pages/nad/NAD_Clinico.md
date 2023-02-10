@@ -5,7 +5,7 @@ parent: NAD
 nav_order: 1
 ---
 
-# NAD Clinico
+# NAD Clinico 
 
 ## Sommario
 
